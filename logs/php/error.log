@@ -1,0 +1,25 @@
+[04-Mar-2023 18:58:08 UTC] PHP Parse error:  syntax error, unexpected end of file, expecting "(" in /Users/nicholastravaglini/Local Sites/aquila/app/public/wp-content/themes/aquila/functions.php on line 8
+[04-Mar-2023 18:58:08 UTC] PHP Warning:  Trying to access array offset on value of type bool in /Users/nicholastravaglini/Local Sites/aquila/app/public/wp-includes/class-wp-recovery-mode-email-service.php on line 372
+[04-Mar-2023 18:58:08 UTC] PHP Warning:  Trying to access array offset on value of type bool in /Users/nicholastravaglini/Local Sites/aquila/app/public/wp-includes/class-wp-recovery-mode-email-service.php on line 373
+[04-Mar-2023 19:00:09 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function add_action(), 1 passed in /Users/nicholastravaglini/Local Sites/aquila/app/public/wp-content/themes/aquila/functions.php on line 11 and at least 2 expected in /Users/nicholastravaglini/Local Sites/aquila/app/public/wp-includes/plugin.php:441
+Stack trace:
+#0 /Users/nicholastravaglini/Local Sites/aquila/app/public/wp-content/themes/aquila/functions.php(11): add_action('wp_enqueue_scri...')
+#1 /Users/nicholastravaglini/Local Sites/aquila/app/public/wp-settings.php(585): include('/Users/nicholas...')
+#2 /Users/nicholastravaglini/Local Sites/aquila/app/public/wp-config.php(93): require_once('/Users/nicholas...')
+#3 /Users/nicholastravaglini/Local Sites/aquila/app/public/wp-load.php(50): require_once('/Users/nicholas...')
+#4 /Users/nicholastravaglini/Local Sites/aquila/app/public/wp-admin/admin-ajax.php(22): require_once('/Users/nicholas...')
+#5 {main}
+  thrown in /Users/nicholastravaglini/Local Sites/aquila/app/public/wp-includes/plugin.php on line 441
+[04-Mar-2023 19:04:10 UTC] PHP Parse error:  syntax error, unexpected token ":", expecting ")" in /Users/nicholastravaglini/Local Sites/aquila/app/public/wp-content/themes/aquila/functions.php on line 9
+[04-Mar-2023 19:06:11 UTC] PHP Parse error:  syntax error, unexpected token "}" in /Users/nicholastravaglini/Local Sites/aquila/app/public/wp-content/themes/aquila/functions.php on line 10
+[04-Mar-2023 19:08:12 UTC] PHP Parse error:  syntax error, unexpected token ";", expecting ")" in /Users/nicholastravaglini/Local Sites/aquila/app/public/wp-content/themes/aquila/functions.php on line 9
+[04-Mar-2023 19:15:03 UTC] PHP Warning:  filemtime(): stat failed for https://aquila.local/wp-content/themes/aquila/style.css in /Users/nicholastravaglini/Local Sites/aquila/app/public/wp-content/themes/aquila/functions.php on line 9
+[04-Mar-2023 20:47:38 UTC] PHP Parse error:  syntax error, unexpected token ":", expecting ")" in /Users/nicholastravaglini/Local Sites/aquila/app/public/wp-content/themes/aquila/functions.php on line 10
+[04-Mar-2023 20:49:38 UTC] PHP Parse error:  syntax error, unexpected token "}" in /Users/nicholastravaglini/Local Sites/aquila/app/public/wp-content/themes/aquila/functions.php on line 11
+[04-Mar-2023 20:53:47 UTC] PHP Warning:  filemtime(): stat failed for /Users/nicholastravaglini/Local Sites/aquila/app/public/wp-content/themes/aquilaassets/main.js in /Users/nicholastravaglini/Local Sites/aquila/app/public/wp-content/themes/aquila/functions.php on line 10
+[04-Mar-2023 20:54:23 UTC] PHP Warning:  filemtime(): stat failed for /Users/nicholastravaglini/Local Sites/aquila/app/public/wp-content/themes/aquilaassets/main.js in /Users/nicholastravaglini/Local Sites/aquila/app/public/wp-content/themes/aquila/functions.php on line 10
+[04-Mar-2023 20:59:46 UTC] PHP Parse error:  syntax error, unexpected identifier "wp_enqueue_style" in /Users/nicholastravaglini/Local Sites/aquila/app/public/wp-content/themes/aquila/functions.php on line 11
+[04-Mar-2023 21:01:50 UTC] PHP Parse error:  syntax error, unexpected identifier "wp_enqueue_style" in /Users/nicholastravaglini/Local Sites/aquila/app/public/wp-content/themes/aquila/functions.php on line 11
+[04-Mar-2023 21:03:51 UTC] PHP Parse error:  syntax error, unexpected identifier "wp_enqueue_style" in /Users/nicholastravaglini/Local Sites/aquila/app/public/wp-content/themes/aquila/functions.php on line 13
+[04-Mar-2023 21:04:08 UTC] PHP Parse error:  syntax error, unexpected identifier "wp_enqueue_style" in /Users/nicholastravaglini/Local Sites/aquila/app/public/wp-content/themes/aquila/functions.php on line 13
+[04-Mar-2023 21:04:09 UTC] PHP Parse error:  syntax error, unexpected identifier "wp_enqueue_style" in /Users/nicholastravaglini/Local Sites/aquila/app/public/wp-content/themes/aquila/functions.php on line 13
