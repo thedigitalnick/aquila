@@ -156,3 +156,25 @@ Stack trace:
 #4 /Users/nicholastravaglini/Local Sites/aquila/app/public/wp-admin/admin-ajax.php(22): require_once('/Users/nicholas...')
 #5 {main}
   thrown in /Users/nicholastravaglini/Local Sites/aquila/app/public/wp-content/themes/aquila/functions.php on line 16
+[05-Mar-2023 19:02:19 UTC] PHP Warning:  filemtime(): stat failed for AQUILA_DIR_PATH/style.css in /Users/nicholastravaglini/Local Sites/aquila/app/public/wp-content/themes/aquila/inc/classes/class-aquila-theme.php on line 28
+[05-Mar-2023 19:02:19 UTC] PHP Warning:  filemtime(): stat failed for AQUILA_DIR_PATH/assets/main.js in /Users/nicholastravaglini/Local Sites/aquila/app/public/wp-content/themes/aquila/inc/classes/class-aquila-theme.php on line 38
+[05-Mar-2023 19:42:58 UTC] PHP Fatal error:  Uncaught Error: Undefined constant "jquery" in /Users/nicholastravaglini/Local Sites/aquila/app/public/wp-content/themes/aquila/functions.php:33
+Stack trace:
+#0 /Users/nicholastravaglini/Local Sites/aquila/app/public/wp-includes/class-wp-hook.php(308): aquila_enqueue_scripts('')
+#1 /Users/nicholastravaglini/Local Sites/aquila/app/public/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#2 /Users/nicholastravaglini/Local Sites/aquila/app/public/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#3 /Users/nicholastravaglini/Local Sites/aquila/app/public/wp-includes/script-loader.php(2180): do_action('wp_enqueue_scri...')
+#4 /Users/nicholastravaglini/Local Sites/aquila/app/public/wp-includes/class-wp-hook.php(308): wp_enqueue_scripts('')
+#5 /Users/nicholastravaglini/Local Sites/aquila/app/public/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#6 /Users/nicholastravaglini/Local Sites/aquila/app/public/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#7 /Users/nicholastravaglini/Local Sites/aquila/app/public/wp-includes/general-template.php(3043): do_action('wp_head')
+#8 /Users/nicholastravaglini/Local Sites/aquila/app/public/wp-content/themes/aquila/header.php(15): wp_head()
+#9 /Users/nicholastravaglini/Local Sites/aquila/app/public/wp-includes/template.php(783): require_once('/Users/nicholas...')
+#10 /Users/nicholastravaglini/Local Sites/aquila/app/public/wp-includes/template.php(718): load_template('/Users/nicholas...', true, Array)
+#11 /Users/nicholastravaglini/Local Sites/aquila/app/public/wp-includes/general-template.php(48): locate_template(Array, true, true, Array)
+#12 /Users/nicholastravaglini/Local Sites/aquila/app/public/wp-content/themes/aquila/index.php(8): get_header()
+#13 /Users/nicholastravaglini/Local Sites/aquila/app/public/wp-includes/template-loader.php(106): include('/Users/nicholas...')
+#14 /Users/nicholastravaglini/Local Sites/aquila/app/public/wp-blog-header.php(19): require_once('/Users/nicholas...')
+#15 /Users/nicholastravaglini/Local Sites/aquila/app/public/index.php(17): require('/Users/nicholas...')
+#16 {main}
+  thrown in /Users/nicholastravaglini/Local Sites/aquila/app/public/wp-content/themes/aquila/functions.php on line 33
