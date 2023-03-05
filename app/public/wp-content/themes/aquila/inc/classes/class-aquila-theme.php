@@ -18,9 +18,9 @@ class AQUILA_THEME {
     }
 
     protected function setup_hooks() {
-        //actions
         
     }
+    
     
 }
 
