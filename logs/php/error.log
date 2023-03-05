@@ -23,3 +23,136 @@ Stack trace:
 [04-Mar-2023 21:03:51 UTC] PHP Parse error:  syntax error, unexpected identifier "wp_enqueue_style" in /Users/nicholastravaglini/Local Sites/aquila/app/public/wp-content/themes/aquila/functions.php on line 13
 [04-Mar-2023 21:04:08 UTC] PHP Parse error:  syntax error, unexpected identifier "wp_enqueue_style" in /Users/nicholastravaglini/Local Sites/aquila/app/public/wp-content/themes/aquila/functions.php on line 13
 [04-Mar-2023 21:04:09 UTC] PHP Parse error:  syntax error, unexpected identifier "wp_enqueue_style" in /Users/nicholastravaglini/Local Sites/aquila/app/public/wp-content/themes/aquila/functions.php on line 13
+[04-Mar-2023 22:21:50 UTC] PHP Parse error:  syntax error, unexpected token "<", expecting end of file in /Users/nicholastravaglini/Local Sites/aquila/app/public/wp-content/themes/aquila/template-parts/header/nav.php on line 8
+[04-Mar-2023 22:21:50 UTC] PHP Parse error:  syntax error, unexpected token "<", expecting end of file in /Users/nicholastravaglini/Local Sites/aquila/app/public/wp-content/themes/aquila/template-parts/header/nav.php on line 8
+[04-Mar-2023 22:22:35 UTC] PHP Parse error:  syntax error, unexpected token "<", expecting end of file in /Users/nicholastravaglini/Local Sites/aquila/app/public/wp-content/themes/aquila/template-parts/header/nav.php on line 8
+[04-Mar-2023 22:22:35 UTC] PHP Parse error:  syntax error, unexpected token "<", expecting end of file in /Users/nicholastravaglini/Local Sites/aquila/app/public/wp-content/themes/aquila/template-parts/header/nav.php on line 8
+[05-Mar-2023 05:34:19 UTC] PHP Parse error:  syntax error, unexpected identifier "aquila_enqueue_scripts", expecting "(" in /Users/nicholastravaglini/Local Sites/aquila/app/public/wp-content/themes/aquila/functions.php on line 12
+[05-Mar-2023 05:36:19 UTC] PHP Parse error:  syntax error, unexpected token "}" in /Users/nicholastravaglini/Local Sites/aquila/app/public/wp-content/themes/aquila/functions.php on line 10
+[05-Mar-2023 05:38:19 UTC] PHP Parse error:  syntax error, unexpected token "function" in /Users/nicholastravaglini/Local Sites/aquila/app/public/wp-content/themes/aquila/functions.php on line 14
+[05-Mar-2023 16:17:07 UTC] PHP Fatal error:  Trait "Aquila_Theme\Inc\Traits\Singleton" not found in /Users/nicholastravaglini/Local Sites/aquila/app/public/wp-content/themes/aquila/inc/classes/class-aquila-theme.php on line 12
+[05-Mar-2023 16:19:08 UTC] PHP Fatal error:  Trait "Aquila_Theme\Inc\Traits\Singleton" not found in /Users/nicholastravaglini/Local Sites/aquila/app/public/wp-content/themes/aquila/inc/classes/class-aquila-theme.php on line 12
+[05-Mar-2023 16:21:09 UTC] PHP Parse error:  syntax error, unexpected variable "$this" in /Users/nicholastravaglini/Local Sites/aquila/app/public/wp-content/themes/aquila/inc/classes/class-aquila-theme.php on line 19
+[05-Mar-2023 16:23:03 UTC] PHP Parse error:  syntax error, unexpected variable "$this" in /Users/nicholastravaglini/Local Sites/aquila/app/public/wp-content/themes/aquila/inc/classes/class-aquila-theme.php on line 19
+[05-Mar-2023 16:23:04 UTC] PHP Parse error:  syntax error, unexpected variable "$this" in /Users/nicholastravaglini/Local Sites/aquila/app/public/wp-content/themes/aquila/inc/classes/class-aquila-theme.php on line 19
+[05-Mar-2023 16:23:11 UTC] PHP Parse error:  syntax error, unexpected variable "$this" in /Users/nicholastravaglini/Local Sites/aquila/app/public/wp-content/themes/aquila/inc/classes/class-aquila-theme.php on line 19
+[05-Mar-2023 16:23:30 UTC] PHP Fatal error:  Trait "Aquila_Theme\Inc\Traits\Singleton" not found in /Users/nicholastravaglini/Local Sites/aquila/app/public/wp-content/themes/aquila/inc/classes/class-aquila-theme.php on line 12
+[05-Mar-2023 16:23:30 UTC] PHP Fatal error:  Trait "Aquila_Theme\Inc\Traits\Singleton" not found in /Users/nicholastravaglini/Local Sites/aquila/app/public/wp-content/themes/aquila/inc/classes/class-aquila-theme.php on line 12
+[05-Mar-2023 16:25:13 UTC] PHP Fatal error:  Trait "Aquila_Theme\Inc\Traits\Singleton" not found in /Users/nicholastravaglini/Local Sites/aquila/app/public/wp-content/themes/aquila/inc/classes/class-aquila-theme.php on line 12
+[05-Mar-2023 16:27:14 UTC] PHP Fatal error:  Trait "Aquila_Theme\Inc\Traits\Singleton" not found in /Users/nicholastravaglini/Local Sites/aquila/app/public/wp-content/themes/aquila/inc/classes/class-aquila-theme.php on line 12
+[05-Mar-2023 16:27:26 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method AQUILA_THEME\Inc\AQUILA_THEME::get_instance() in /Users/nicholastravaglini/Local Sites/aquila/app/public/wp-content/themes/aquila/functions.php:16
+Stack trace:
+#0 /Users/nicholastravaglini/Local Sites/aquila/app/public/wp-content/themes/aquila/functions.php(19): aquila_get_theme_instance()
+#1 /Users/nicholastravaglini/Local Sites/aquila/app/public/wp-settings.php(585): include('/Users/nicholas...')
+#2 /Users/nicholastravaglini/Local Sites/aquila/app/public/wp-config.php(93): require_once('/Users/nicholas...')
+#3 /Users/nicholastravaglini/Local Sites/aquila/app/public/wp-load.php(50): require_once('/Users/nicholas...')
+#4 /Users/nicholastravaglini/Local Sites/aquila/app/public/wp-blog-header.php(13): require_once('/Users/nicholas...')
+#5 /Users/nicholastravaglini/Local Sites/aquila/app/public/index.php(17): require('/Users/nicholas...')
+#6 {main}
+  thrown in /Users/nicholastravaglini/Local Sites/aquila/app/public/wp-content/themes/aquila/functions.php on line 16
+[05-Mar-2023 16:27:26 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method AQUILA_THEME\Inc\AQUILA_THEME::get_instance() in /Users/nicholastravaglini/Local Sites/aquila/app/public/wp-content/themes/aquila/functions.php:16
+Stack trace:
+#0 /Users/nicholastravaglini/Local Sites/aquila/app/public/wp-content/themes/aquila/functions.php(19): aquila_get_theme_instance()
+#1 /Users/nicholastravaglini/Local Sites/aquila/app/public/wp-settings.php(585): include('/Users/nicholas...')
+#2 /Users/nicholastravaglini/Local Sites/aquila/app/public/wp-config.php(93): require_once('/Users/nicholas...')
+#3 /Users/nicholastravaglini/Local Sites/aquila/app/public/wp-load.php(50): require_once('/Users/nicholas...')
+#4 /Users/nicholastravaglini/Local Sites/aquila/app/public/wp-blog-header.php(13): require_once('/Users/nicholas...')
+#5 /Users/nicholastravaglini/Local Sites/aquila/app/public/index.php(17): require('/Users/nicholas...')
+#6 {main}
+  thrown in /Users/nicholastravaglini/Local Sites/aquila/app/public/wp-content/themes/aquila/functions.php on line 16
+[05-Mar-2023 16:28:51 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method AQUILA_THEME\Inc\AQUILA_THEME::get_instance() in /Users/nicholastravaglini/Local Sites/aquila/app/public/wp-content/themes/aquila/functions.php:16
+Stack trace:
+#0 /Users/nicholastravaglini/Local Sites/aquila/app/public/wp-content/themes/aquila/functions.php(19): aquila_get_theme_instance()
+#1 /Users/nicholastravaglini/Local Sites/aquila/app/public/wp-settings.php(585): include('/Users/nicholas...')
+#2 /Users/nicholastravaglini/Local Sites/aquila/app/public/wp-config.php(93): require_once('/Users/nicholas...')
+#3 /Users/nicholastravaglini/Local Sites/aquila/app/public/wp-load.php(50): require_once('/Users/nicholas...')
+#4 /Users/nicholastravaglini/Local Sites/aquila/app/public/wp-blog-header.php(13): require_once('/Users/nicholas...')
+#5 /Users/nicholastravaglini/Local Sites/aquila/app/public/index.php(17): require('/Users/nicholas...')
+#6 {main}
+  thrown in /Users/nicholastravaglini/Local Sites/aquila/app/public/wp-content/themes/aquila/functions.php on line 16
+[05-Mar-2023 16:28:51 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method AQUILA_THEME\Inc\AQUILA_THEME::get_instance() in /Users/nicholastravaglini/Local Sites/aquila/app/public/wp-content/themes/aquila/functions.php:16
+Stack trace:
+#0 /Users/nicholastravaglini/Local Sites/aquila/app/public/wp-content/themes/aquila/functions.php(19): aquila_get_theme_instance()
+#1 /Users/nicholastravaglini/Local Sites/aquila/app/public/wp-settings.php(585): include('/Users/nicholas...')
+#2 /Users/nicholastravaglini/Local Sites/aquila/app/public/wp-config.php(93): require_once('/Users/nicholas...')
+#3 /Users/nicholastravaglini/Local Sites/aquila/app/public/wp-load.php(50): require_once('/Users/nicholas...')
+#4 /Users/nicholastravaglini/Local Sites/aquila/app/public/wp-blog-header.php(13): require_once('/Users/nicholas...')
+#5 /Users/nicholastravaglini/Local Sites/aquila/app/public/index.php(17): require('/Users/nicholas...')
+#6 {main}
+  thrown in /Users/nicholastravaglini/Local Sites/aquila/app/public/wp-content/themes/aquila/functions.php on line 16
+[05-Mar-2023 16:29:15 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method AQUILA_THEME\Inc\AQUILA_THEME::get_instance() in /Users/nicholastravaglini/Local Sites/aquila/app/public/wp-content/themes/aquila/functions.php:16
+Stack trace:
+#0 /Users/nicholastravaglini/Local Sites/aquila/app/public/wp-content/themes/aquila/functions.php(19): aquila_get_theme_instance()
+#1 /Users/nicholastravaglini/Local Sites/aquila/app/public/wp-settings.php(585): include('/Users/nicholas...')
+#2 /Users/nicholastravaglini/Local Sites/aquila/app/public/wp-config.php(93): require_once('/Users/nicholas...')
+#3 /Users/nicholastravaglini/Local Sites/aquila/app/public/wp-load.php(50): require_once('/Users/nicholas...')
+#4 /Users/nicholastravaglini/Local Sites/aquila/app/public/wp-admin/admin-ajax.php(22): require_once('/Users/nicholas...')
+#5 {main}
+  thrown in /Users/nicholastravaglini/Local Sites/aquila/app/public/wp-content/themes/aquila/functions.php on line 16
+[05-Mar-2023 16:29:48 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method AQUILA_THEME\Inc\AQUILA_THEME::get_instance() in /Users/nicholastravaglini/Local Sites/aquila/app/public/wp-content/themes/aquila/functions.php:16
+Stack trace:
+#0 /Users/nicholastravaglini/Local Sites/aquila/app/public/wp-content/themes/aquila/functions.php(19): aquila_get_theme_instance()
+#1 /Users/nicholastravaglini/Local Sites/aquila/app/public/wp-settings.php(585): include('/Users/nicholas...')
+#2 /Users/nicholastravaglini/Local Sites/aquila/app/public/wp-config.php(93): require_once('/Users/nicholas...')
+#3 /Users/nicholastravaglini/Local Sites/aquila/app/public/wp-load.php(50): require_once('/Users/nicholas...')
+#4 /Users/nicholastravaglini/Local Sites/aquila/app/public/wp-blog-header.php(13): require_once('/Users/nicholas...')
+#5 /Users/nicholastravaglini/Local Sites/aquila/app/public/index.php(17): require('/Users/nicholas...')
+#6 {main}
+  thrown in /Users/nicholastravaglini/Local Sites/aquila/app/public/wp-content/themes/aquila/functions.php on line 16
+[05-Mar-2023 16:29:49 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method AQUILA_THEME\Inc\AQUILA_THEME::get_instance() in /Users/nicholastravaglini/Local Sites/aquila/app/public/wp-content/themes/aquila/functions.php:16
+Stack trace:
+#0 /Users/nicholastravaglini/Local Sites/aquila/app/public/wp-content/themes/aquila/functions.php(19): aquila_get_theme_instance()
+#1 /Users/nicholastravaglini/Local Sites/aquila/app/public/wp-settings.php(585): include('/Users/nicholas...')
+#2 /Users/nicholastravaglini/Local Sites/aquila/app/public/wp-config.php(93): require_once('/Users/nicholas...')
+#3 /Users/nicholastravaglini/Local Sites/aquila/app/public/wp-load.php(50): require_once('/Users/nicholas...')
+#4 /Users/nicholastravaglini/Local Sites/aquila/app/public/wp-blog-header.php(13): require_once('/Users/nicholas...')
+#5 /Users/nicholastravaglini/Local Sites/aquila/app/public/index.php(17): require('/Users/nicholas...')
+#6 {main}
+  thrown in /Users/nicholastravaglini/Local Sites/aquila/app/public/wp-content/themes/aquila/functions.php on line 16
+[05-Mar-2023 16:31:20 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method AQUILA_THEME\Inc\AQUILA_THEME::get_instance() in /Users/nicholastravaglini/Local Sites/aquila/app/public/wp-content/themes/aquila/functions.php:16
+Stack trace:
+#0 /Users/nicholastravaglini/Local Sites/aquila/app/public/wp-content/themes/aquila/functions.php(19): aquila_get_theme_instance()
+#1 /Users/nicholastravaglini/Local Sites/aquila/app/public/wp-settings.php(585): include('/Users/nicholas...')
+#2 /Users/nicholastravaglini/Local Sites/aquila/app/public/wp-config.php(93): require_once('/Users/nicholas...')
+#3 /Users/nicholastravaglini/Local Sites/aquila/app/public/wp-load.php(50): require_once('/Users/nicholas...')
+#4 /Users/nicholastravaglini/Local Sites/aquila/app/public/wp-admin/admin-ajax.php(22): require_once('/Users/nicholas...')
+#5 {main}
+  thrown in /Users/nicholastravaglini/Local Sites/aquila/app/public/wp-content/themes/aquila/functions.php on line 16
+[05-Mar-2023 16:33:20 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method AQUILA_THEME\Inc\AQUILA_THEME::get_instance() in /Users/nicholastravaglini/Local Sites/aquila/app/public/wp-content/themes/aquila/functions.php:16
+Stack trace:
+#0 /Users/nicholastravaglini/Local Sites/aquila/app/public/wp-content/themes/aquila/functions.php(19): aquila_get_theme_instance()
+#1 /Users/nicholastravaglini/Local Sites/aquila/app/public/wp-settings.php(585): include('/Users/nicholas...')
+#2 /Users/nicholastravaglini/Local Sites/aquila/app/public/wp-config.php(93): require_once('/Users/nicholas...')
+#3 /Users/nicholastravaglini/Local Sites/aquila/app/public/wp-load.php(50): require_once('/Users/nicholas...')
+#4 /Users/nicholastravaglini/Local Sites/aquila/app/public/wp-admin/admin-ajax.php(22): require_once('/Users/nicholas...')
+#5 {main}
+  thrown in /Users/nicholastravaglini/Local Sites/aquila/app/public/wp-content/themes/aquila/functions.php on line 16
+[05-Mar-2023 16:34:22 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method AQUILA_THEME\Inc\AQUILA_THEME::get_instance() in /Users/nicholastravaglini/Local Sites/aquila/app/public/wp-content/themes/aquila/functions.php:16
+Stack trace:
+#0 /Users/nicholastravaglini/Local Sites/aquila/app/public/wp-content/themes/aquila/functions.php(19): aquila_get_theme_instance()
+#1 /Users/nicholastravaglini/Local Sites/aquila/app/public/wp-settings.php(585): include('/Users/nicholas...')
+#2 /Users/nicholastravaglini/Local Sites/aquila/app/public/wp-config.php(93): require_once('/Users/nicholas...')
+#3 /Users/nicholastravaglini/Local Sites/aquila/app/public/wp-load.php(50): require_once('/Users/nicholas...')
+#4 /Users/nicholastravaglini/Local Sites/aquila/app/public/wp-blog-header.php(13): require_once('/Users/nicholas...')
+#5 /Users/nicholastravaglini/Local Sites/aquila/app/public/index.php(17): require('/Users/nicholas...')
+#6 {main}
+  thrown in /Users/nicholastravaglini/Local Sites/aquila/app/public/wp-content/themes/aquila/functions.php on line 16
+[05-Mar-2023 16:34:22 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method AQUILA_THEME\Inc\AQUILA_THEME::get_instance() in /Users/nicholastravaglini/Local Sites/aquila/app/public/wp-content/themes/aquila/functions.php:16
+Stack trace:
+#0 /Users/nicholastravaglini/Local Sites/aquila/app/public/wp-content/themes/aquila/functions.php(19): aquila_get_theme_instance()
+#1 /Users/nicholastravaglini/Local Sites/aquila/app/public/wp-settings.php(585): include('/Users/nicholas...')
+#2 /Users/nicholastravaglini/Local Sites/aquila/app/public/wp-config.php(93): require_once('/Users/nicholas...')
+#3 /Users/nicholastravaglini/Local Sites/aquila/app/public/wp-load.php(50): require_once('/Users/nicholas...')
+#4 /Users/nicholastravaglini/Local Sites/aquila/app/public/wp-blog-header.php(13): require_once('/Users/nicholas...')
+#5 /Users/nicholastravaglini/Local Sites/aquila/app/public/index.php(17): require('/Users/nicholas...')
+#6 {main}
+  thrown in /Users/nicholastravaglini/Local Sites/aquila/app/public/wp-content/themes/aquila/functions.php on line 16
+[05-Mar-2023 16:35:23 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method AQUILA_THEME\Inc\AQUILA_THEME::get_instance() in /Users/nicholastravaglini/Local Sites/aquila/app/public/wp-content/themes/aquila/functions.php:16
+Stack trace:
+#0 /Users/nicholastravaglini/Local Sites/aquila/app/public/wp-content/themes/aquila/functions.php(19): aquila_get_theme_instance()
+#1 /Users/nicholastravaglini/Local Sites/aquila/app/public/wp-settings.php(585): include('/Users/nicholas...')
+#2 /Users/nicholastravaglini/Local Sites/aquila/app/public/wp-config.php(93): require_once('/Users/nicholas...')
+#3 /Users/nicholastravaglini/Local Sites/aquila/app/public/wp-load.php(50): require_once('/Users/nicholas...')
+#4 /Users/nicholastravaglini/Local Sites/aquila/app/public/wp-admin/admin-ajax.php(22): require_once('/Users/nicholas...')
+#5 {main}
+  thrown in /Users/nicholastravaglini/Local Sites/aquila/app/public/wp-content/themes/aquila/functions.php on line 16
